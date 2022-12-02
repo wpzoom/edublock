@@ -68,8 +68,8 @@ function edublock_register_block_styles() {
 			'border' => __( 'Border', 'edublock' ),
 			'full-height'  => __( 'Full-height', 'edublock' ),
             'round-corners'       => __( 'Rounded', 'edublock' ),
-            'round-top'       => __( 'Rounded Corners Top', 'edublock' ),
-            'round-bottom'       => __( 'Rounded Corners Bottom', 'edublock' ),
+            'round-top'       => __( 'Rounded Top', 'edublock' ),
+            'round-bottom'       => __( 'Rounded Bottom', 'edublock' ),
 		),
         'core/cover'           => array(
             'round-corners'       => __( 'Rounded', 'edublock' ),

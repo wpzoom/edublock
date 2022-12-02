@@ -287,6 +287,14 @@ kbd {
     border: 1px solid var(--wp--preset--color--lightgrey);
 }
 
+.wp-block-group.is-style-round-top {
+    border-radius: 20px 20px 0 0;
+}
+
+.wp-block-group.is-style-round-bottom {
+    border-radius: 0 0 20px 20px;
+}
+
 /* Column
 --------------------------------------------- */
 
@@ -339,7 +347,7 @@ kbd {
 .wp-block-cover.is-style-round-bottom,
 .wp-block-cover.is-style-round-bottom img,
 .wp-block-cover.is-style-round-bottom .wp-block-cover__background {
-    border-radius: 20px 20px 0 0;
+    border-radius: 0 0 20px 20px;
 }
 
 
