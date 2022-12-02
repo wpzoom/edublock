@@ -330,6 +330,20 @@ kbd {
 }
 
 
+.wp-block-cover.is-style-round-top,
+.wp-block-cover.is-style-round-top img,
+.wp-block-cover.is-style-round-top .wp-block-cover__background {
+    border-radius: 20px 20px 0 0;
+}
+
+.wp-block-cover.is-style-round-bottom,
+.wp-block-cover.is-style-round-bottom img,
+.wp-block-cover.is-style-round-bottom .wp-block-cover__background {
+    border-radius: 20px 20px 0 0;
+}
+
+
+
 /* Image
 --------------------------------------------- */
 
