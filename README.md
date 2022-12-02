@@ -1,14 +1,12 @@
-# EduBlock - The WordPress theme to unblock your creativity
+# EduBlock - Coming Soon!
 
-![EduBlock Theme](https://demo.wpzoom.com/edublock/wp-content/themes/edublock/assets/admin/img/edublock.png)
 
 ## About
 
-EduBlock is a next-generation WordPress theme that adopts the Full Site Editing concept. Using the new Theme Editor, you have complete control over the design of your website. You can now change not just the colors and fonts in your theme but also make changes to the layout and global sections like the header and footer.
+...
 
 Download the latest stable [release](https://github.com/wpzoom/edublock/releases)
 
-Demo: https://demo.wpzoom.com/edublock/
 
 ## Requirements
 
