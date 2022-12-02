@@ -1,0 +1,202 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: EduBlock\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-07 07:57+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.2; wp-6.0.2\n"
+"X-Domain: edublock"
+
+#: inc/admin/theme-admin.php:113
+msgid "Are you are enjoying EduBlock? We would love to hear your feedback."
+msgstr ""
+
+#: functions.php:140
+msgid "Blog Posts"
+msgstr ""
+
+#: functions.php:67 functions.php:75
+msgid "Border"
+msgstr ""
+
+#: inc/admin/theme-admin.php:49
+msgid "Designed by "
+msgstr ""
+
+#: functions.php:89
+msgid "Fill"
+msgstr ""
+
+#: functions.php:62 functions.php:90
+msgid "Fill Background"
+msgstr ""
+
+#: functions.php:124
+msgid "Footer"
+msgstr ""
+
+#: functions.php:68
+msgid "Full-height"
+msgstr ""
+
+#: inc/admin/theme-admin.php:74
+msgid "Get More with Our Premium Plugins & Themes!"
+msgstr ""
+
+#: inc/admin/theme-admin.php:64
+msgid "Getting Started"
+msgstr ""
+
+#: functions.php:132
+msgid "Header"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://www.wpzoom.com/"
+msgstr ""
+
+#. URI of the theme
+msgid "https://www.wpzoom.com/themes/edublock/"
+msgstr ""
+
+#: inc/admin/theme-admin.php:79
+msgid ""
+"If you're happy with the EduBlock theme and looking to support the theme "
+"authors, we'd highly appreciate it if you could purchase one of our premium "
+"themes or plugins."
+msgstr ""
+
+#: inc/admin/theme-admin.php:112
+msgid "Leave us a review"
+msgstr ""
+
+#: functions.php:83
+msgid "No Disc"
+msgstr ""
+
+#: patterns/hidden-404.php:9
+msgid "Not found, error 404"
+msgstr ""
+
+#: patterns/hidden-404.php:12
+msgid ""
+"Oops, the page you are looking for does not exist or is no longer available. "
+"Everything is still awesome. Just use the search form to find your way."
+msgstr ""
+
+#: functions.php:91
+msgid "Outline"
+msgstr ""
+
+#: functions.php:63 functions.php:92
+msgid "Outline Background"
+msgstr ""
+
+#: functions.php:136
+msgid "Pages"
+msgstr ""
+
+#: functions.php:39
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:77
+msgid "Pull left"
+msgstr ""
+
+#: functions.php:76
+msgid "Pull right"
+msgstr ""
+
+#: functions.php:71
+msgid "Rounded"
+msgstr ""
+
+#: functions.php:128
+msgid "Sections"
+msgstr ""
+
+#: functions.php:66 functions.php:74 functions.php:80 functions.php:86
+msgid "Shadow"
+msgstr ""
+
+#: inc/admin/theme-admin.php:114
+msgid "Submit a review"
+msgstr ""
+
+#: inc/admin/theme-admin.php:100
+msgid "Support"
+msgstr ""
+
+#. Name of the theme
+#: inc/admin/theme-admin.php:45 inc/admin/theme-admin.php:62
+#: inc/admin/theme-admin.php:82
+msgid "EduBlock"
+msgstr ""
+
+#: functions.php:119
+msgid "edublock"
+msgstr ""
+
+#: inc/admin/theme-admin.php:69 inc/admin/theme-admin.php:97
+msgid "EduBlock Documentation"
+msgstr ""
+
+#: inc/admin/theme-admin.php:19
+msgid "EduBlock Getting Started"
+msgstr ""
+
+#. Description of the theme
+#: inc/admin/theme-admin.php:66
+msgid ""
+"EduBlock is a next-generation WordPress theme that adopts the Full Site "
+"Editing concept. Using the new Theme Editor, you have complete control over "
+"the design of your website. You can now change not just the colors and fonts "
+"in your theme but also make changes to the layout and global sections like "
+"the header and footer."
+msgstr ""
+
+#: inc/admin/theme-admin.php:76
+msgid ""
+"EduBlock is our first Full-site-editing theme, but we also have a broad "
+"collection of more than 30 Premium Themes and popular plugins to help you "
+"build websites easier with WordPress."
+msgstr ""
+
+#: inc/admin/theme-admin.php:20
+msgid "EduBlock Theme"
+msgstr ""
+
+#: inc/admin/theme-admin.php:94
+msgid "Useful Links"
+msgstr ""
+
+#: inc/admin/theme-admin.php:81
+msgid "View All Plugins"
+msgstr ""
+
+#: inc/admin/theme-admin.php:81
+msgid "View All Themes"
+msgstr ""
+
+#: inc/admin/theme-admin.php:106
+msgid "View our Premium Plugins"
+msgstr ""
+
+#: inc/admin/theme-admin.php:103
+msgid "View our Premium Themes"
+msgstr ""
+
+#. Author of the theme
+#: inc/admin/theme-admin.php:50
+msgid "WPZOOM"
+msgstr ""
