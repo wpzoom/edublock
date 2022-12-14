@@ -79,8 +79,7 @@ function edublock_register_block_styles() {
         'core/column'           => array(
             'shadow'       => __( 'Shadow', 'edublock' ),
             'border' => __( 'Border', 'edublock' ),
-            'pull-right'  => __( 'Pull right', 'edublock' ),
-            'pull-left'  => __( 'Pull left', 'edublock' ),
+            'round-corners'       => __( 'Rounded', 'edublock' ),
         ),
 		'core/image'           => array(
 			'shadow' => __( 'Shadow', 'edublock' ),

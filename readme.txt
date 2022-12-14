@@ -13,34 +13,6 @@ EduBlock is a next-generation WordPress theme that adopts the Full Site Editing 
 
 == Changelog ==
 
-= 1.1.4 =
-* Minor fixes to make the theme work fine with the PRO version
-
-= 1.1.3 =
-* Added compatibility with WordPress 6.1
-
-= 1.1.2 =
-* Minor fixes and improvements to the Style variations
-
-= 1.1.1 =
-* Removed the Demo Content Importer due to Theme Requirements on wordpress.org
-
-= 1.1.0 =
-* Added Style variations
-* Added Demo Content Importer
-* Added more font weights
-
-= 1.0.3 =
-* Updating some images from the starter content
-
-= 1.0.2 =
-* Added compatibility with WordPress 6.0
-* The theme is not relying on the Gutenberg plugin anymore
-
-= 1.0.1 =
-* Added support for multiple Google Fonts which are hosted locally using WPTT Webfont Loader (GDPR-compliant, as fonts are not loaded from Google's servers)
-* Added the link to the Customizer back
-
 = 1.0  =
 * Initial release
 
@@ -97,6 +69,50 @@ Included as part of the following classes and functions:
 - edublock_admin_scripts
 - edublock_theme_admin_menu()
 - edublock_admin_page_content()
+
+
+People Wearing an Academic Dress
+https://www.pexels.com/photo/people-wearing-an-academic-dress-7713245/
+
+Photo Of Woman Reading A Book
+https://www.pexels.com/photo/photo-of-woman-reading-a-book-6334056/
+
+A Woman Teaching a Young Man
+https://www.pexels.com/photo/a-woman-teaching-a-young-man-12197305/
+
+Red Building during Day Time
+https://www.pexels.com/photo/red-building-during-day-time-2170498/
+
+Man in Beige Dress Shirt Sitting on Brown Chair
+https://www.pexels.com/photo/man-in-beige-dress-shirt-sitting-on-brown-chair-9572416/
+
+Stacks of books on shelves in library
+https://www.pexels.com/photo/stacks-of-books-on-shelves-in-library-5407044/
+
+Person Swimming on Body of Water
+https://www.pexels.com/photo/person-swimming-on-body-of-water-863988/
+
+Man in Blue Academic Dress Smiling
+https://www.pexels.com/photo/man-in-blue-academic-dress-smiling-4446163/
+
+Woman Smiling at the Camera
+https://www.pexels.com/photo/woman-smiling-at-the-camera-1181686/
+
+Woman with Pink Hair Sorting Clothes
+https://www.pexels.com/photo/woman-with-pink-hair-sorting-clothes-6994832/
+
+Photo Of Man Holding Mic
+https://www.pexels.com/photo/photo-of-man-holding-mic-3321793/
+
+
+
+
+
+
+
+
+
+
 
 
 Starter content image, Copyright  Direct Media

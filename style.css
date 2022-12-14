@@ -307,6 +307,10 @@ kbd {
     border: 1px solid var(--wp--preset--color--lightgrey);
 }
 
+.wp-block-column.is-style-round-corners {
+    border-radius: 20px;
+}
+
 .wp-block-column.is-style-pull-right,
 .wp-block-column.is-style-pull-left {
     box-shadow: 0 14px 12px rgb(0 0 0 / 7%);
@@ -336,7 +340,6 @@ kbd {
 .wp-block-cover.is-style-round-corners .wp-block-cover__background {
     border-radius: 20px;
 }
-
 
 .wp-block-cover.is-style-round-top,
 .wp-block-cover.is-style-round-top img,
