@@ -199,23 +199,6 @@
             "fluid": true,
             "fontFamilies": [
                 {
-                    "fontFace": [
-                        {
-                            "fontDisplay": "block",
-                            "fontFamily": "Outfit",
-                            "fontStretch": "normal",
-                            "fontStyle": "normal",
-                            "fontWeight": "300 900",
-                            "src": [
-                                "file:./assets/fonts/Outfit-Variable.woff2"
-                            ]
-                        }
-                    ],
-                    "fontFamily": "Outfit, sans-serif",
-                    "name": "Outfit",
-                    "slug": "outfit"
-                },
-                {
                     "fontFamily": "-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif)",
                     "name": "Sans Serif",
                     "slug": "sans-serif"
@@ -603,7 +586,8 @@
                     }
                 },
                 "typography": {
-                    "fontWeight": "var(--wp--custom--font-weight--medium)",
+                    "fontFamily": "var(--wp--custom--font-weight--medium)",
+                    "fontWeight": "var(--wp--custom--font-weight--semi-bold)",
                     "lineHeight": "var(--wp--custom--line-height--heading)"
                 }
             },
@@ -797,7 +781,6 @@
                     }
                 },
                 "typography": {
-                    "fontFamily": "Inter, sans-serif",
                     "fontSize": "var(--wp--preset--font-size--small)",
                     "fontWeight": "var(--wp--custom--font-weight--medium)"
                 }

@@ -175,16 +175,16 @@ input[type="submit"]:hover,
 
 .wp-block-button.is-style-outline .wp-block-button__link {
     background-color: transparent;
-    border: 2px solid;
+    border: 1px solid;
     border-color: currentColor;
     color: var(--wp--preset--color--foreground);
     padding: 10px 25px;
 }
 
 .wp-block-button.is-style-outline .wp-block-button__link:hover {
-    background-color: var(--wp--preset--color--foreground);
-    border-color: var(--wp--preset--color--foreground);
-    color: var(--wp--preset--color--background);
+    background-color: var(--wp--preset--color--white);
+    border-color: var(--wp--preset--color--white);
+    color: var(--wp--preset--color--foreground);
 }
 
 /* Button - Outline Background
@@ -192,7 +192,7 @@ input[type="submit"]:hover,
 
 .wp-block-button.is-style-outline-background .wp-block-button__link {
     background-color: transparent;
-    border: 2px solid;
+    border: 1px solid;
     border-color: var(--wp--preset--color--background);
     color: var(--wp--preset--color--background);
 }
