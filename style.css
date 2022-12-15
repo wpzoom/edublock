@@ -193,13 +193,15 @@ input[type="submit"]:hover,
 .wp-block-button.is-style-outline-background .wp-block-button__link {
     background-color: transparent;
     border: 1px solid;
-    border-color: var(--wp--preset--color--background);
-    color: var(--wp--preset--color--background);
+    border-color: var(--wp--preset--color--primary);
+    color: var(--wp--preset--color--primary);
+    padding: 10px 25px;
 }
 
 .wp-block-button.is-style-outline-background .wp-block-button__link:hover {
-    background-color: var(--wp--preset--color--background);
-    color: var(--wp--preset--color--foreground);
+    background-color: var(--wp--preset--color--secondary);
+    border-color: var(--wp--preset--color--secondary);
+    color: var(--wp--preset--color--white);
 }
 
 /* Calendar

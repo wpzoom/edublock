@@ -966,6 +966,22 @@
 <!-- /wp:query-no-results --></div>
 <!-- /wp:query -->
 
+<!-- wp:columns -->
+<div class="wp-block-columns"><!-- wp:column {"width":"15.5%"} -->
+<div class="wp-block-column" style="flex-basis:15.5%"><!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button {"textColor":"primary","style":{"border":{"radius":"4px"}},"className":"is-style-outline"} -->
+<div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-primary-color has-text-color wp-element-button" href="#" style="border-radius:4px">Read all news</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"verticalAlignment":"center","width":"85%"} -->
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:85%"><!-- wp:separator {"align":"center","backgroundColor":"lightgrey","className":"is-style-wide"} -->
+<hr class="wp-block-separator aligncenter has-text-color has-lightgrey-color has-alpha-channel-opacity has-lightgrey-background-color has-background is-style-wide"/>
+<!-- /wp:separator --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+
 <!-- wp:spacer {"height":"81px"} -->
 <div style="height:81px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer --></div>

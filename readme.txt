@@ -120,6 +120,18 @@ Source: https://www.pexels.com/photo/woman-in-black-tank-top-3861962/
 College Students Researching at the Library
 https://www.pexels.com/photo/college-students-researching-at-the-library-6549627/
 
+Buildings Inside the University of Washington
+https://www.pexels.com/photo/buildings-inside-the-university-of-washington-11823038/
+
+Man in Gray Sweater Sitting on Chair Using Laptop
+https://www.pexels.com/photo/man-in-gray-sweater-sitting-on-chair-using-laptop-7245796/
+
+Classic Photo of Employees Working In The Office
+https://www.pexels.com/photo/classic-photo-of-employees-working-in-the-office-8657762/
+
+Front Exterior of the Istanbul Technical University in Turkey
+https://www.pexels.com/photo/front-exterior-of-the-istanbul-technical-university-in-turkey-7770649/
+
 
 
 
