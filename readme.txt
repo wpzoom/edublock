@@ -107,10 +107,18 @@ https://www.pexels.com/photo/photo-of-man-holding-mic-3321793/
 People Studying Inside A Library
 https://www.pexels.com/photo/people-studying-inside-a-library-6344238/
 
+Assorted-title Books in a Library
+https://www.pexels.com/photo/assorted-title-books-in-a-library-2925306/
 
+Man and Woman Studying at a Park
+https://www.pexels.com/photo/man-and-woman-studying-at-a-park-6147276/
 
+Starter content image
+License: CC0 1.0 Universal (CC0 1.0)
+Source: https://www.pexels.com/photo/woman-in-black-tank-top-3861962/
 
-
+College Students Researching at the Library
+https://www.pexels.com/photo/college-students-researching-at-the-library-6549627/
 
 
 

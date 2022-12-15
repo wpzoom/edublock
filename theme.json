@@ -410,11 +410,11 @@
                 },
                 {
                     "fluid": {
-                        "max": "24px",
-                        "min": "20px"
+                        "max": "22px",
+                        "min": "18px"
                     },
                     "name": "Large",
-                    "size": "24px",
+                    "size": "20px",
                     "slug": "large"
                 },
                 {
@@ -824,7 +824,7 @@
             "h4": {
                 "typography": {
                     "fontFamily": "Epilogue, sans-serif",
-                    "fontSize": "24px",
+                    "fontSize": "20px",
                     "lineHeight": "1.5"
                 }
             },

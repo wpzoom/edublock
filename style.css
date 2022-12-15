@@ -313,7 +313,7 @@ kbd {
 
 .wp-block-column.is-style-pull-right,
 .wp-block-column.is-style-pull-left {
-    box-shadow: 0 14px 12px rgb(0 0 0 / 7%);
+/*    box-shadow: 0 14px 12px rgb(0 0 0 / 7%);*/
     border-radius: 20px;
 }
 
