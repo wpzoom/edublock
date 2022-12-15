@@ -8,7 +8,7 @@ Tags: blog, block-styles, grid-layout, one-column, two-columns, three-columns, f
 Requires at least: 6.1
 Tested up to: 6.1
 Requires PHP: 7.2
-Version: 1.1.4
+Version: 1.0
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: edublock
@@ -125,7 +125,7 @@ input[type="submit"],
 .wp-block-post-comments input[type=submit],
 .wp-block-search__button {
     border-radius: 4px;
-    background-color: var(--wp--preset--color--primary);
+    background-color: var(--wp--preset--color--secondary);
     color: var(--wp--preset--color--background);
     cursor: pointer;
     font-size: var(--wp--preset--font-size--small);
@@ -141,15 +141,25 @@ input[type="button"]:hover,
 input[type="submit"]:hover,
 .wp-block-button__link:hover,
 .wp-block-search__button:hover {
-    background-color: var(--wp--preset--color--foreground);
-    color: var(--wp--preset--color--light-background);
+    color: var(--wp--preset--color--white);
+    background-color: var(--wp--preset--color--primary);
     text-decoration: none;
 }
 
 .wp-block-button__link.has-background:hover {
-    color: var(--wp--preset--color--background);
+    color: var(--wp--preset--color--white);
+    background-color: var(--wp--preset--color--primary);
     filter: brightness(110%);
 }
+
+
+/*.wp-block-button__link.has-background:hover {
+    color: var(--wp--preset--color--foreground);
+    background-color: var(--wp--preset--color--white);
+    filter: brightness(110%);
+}
+*/
+
 
 .wp-block-button__link.has-black-color.has-background:hover {
     color: var(--wp--preset--color--foreground);
@@ -497,7 +507,7 @@ ul li:where(.wp-block-list) {
     opacity: .8;
 }
 
-/* Header Button */
+/* Header Button - used on dark backgrounds*/
 
 .wpz-alt-button .wp-block-button__link,
 .wpz-alt-button.wp-block-button__link {
@@ -505,7 +515,8 @@ ul li:where(.wp-block-list) {
 }
 
 .wpz-alt-button .wp-block-button__link:hover,
-.wpz-alt-button.wp-block-button__link:hover {
+.wpz-alt-button.wp-block-button__link:hover,
+input.wpz-alt-button:hover {
     background-color: var(--wp--preset--color--light-background) !important;
     color: var(--wp--preset--color--foreground);
 }

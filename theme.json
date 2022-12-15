@@ -16,13 +16,6 @@
             "title": "Blog"
         },
         {
-            "name": "services",
-            "postTypes": [
-                "page"
-            ],
-            "title": "Services"
-        },
-        {
             "name": "contact",
             "postTypes": [
                 "page"
@@ -35,13 +28,6 @@
                 "page"
             ],
             "title": "Homepage"
-        },
-        {
-            "name": "page-sidebar",
-            "postTypes": [
-                "page"
-            ],
-            "title": "Page with Sidebar"
         },
         {
             "name": "single-full",
@@ -470,7 +456,7 @@
         "blocks": {
             "core/button": {
                 "color": {
-                    "background": "var(--wp--preset--color--primary)"
+                    "background": "var(--wp--preset--color--secondary)"
                 },
                 "typography": {
                     "fontSize": "var(--wp--preset--font-size--small)",
@@ -878,26 +864,6 @@
             "title": "Header"
         },
         {
-            "area": "header",
-            "name": "header-icons",
-            "title": "Header with Social Icons"
-        },
-        {
-            "area": "header",
-            "name": "header-transparent",
-            "title": "Header (Transparent)"
-        },
-        {
-            "area": "header",
-            "name": "header-center",
-            "title": "Header (Centered)"
-        },
-        {
-            "area": "header",
-            "name": "header-cover",
-            "title": "Header Hero"
-        },
-        {
             "area": "uncategorized",
             "name": "sidebar",
             "title": "Sidebar"
@@ -911,21 +877,6 @@
             "area": "footer",
             "name": "footer",
             "title": "Footer"
-        },
-        {
-            "area": "footer",
-            "name": "footer-center",
-            "title": "Footer (Centered)"
-        },
-        {
-            "area": "footer",
-            "name": "footer-business",
-            "title": "Footer (Business)"
-        },
-        {
-            "area": "footer",
-            "name": "footer-simple",
-            "title": "Footer (Simple)"
         },
         {
             "area": "uncategorized",

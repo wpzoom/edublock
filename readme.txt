@@ -71,6 +71,9 @@ Included as part of the following classes and functions:
 - edublock_admin_page_content()
 
 
+Images used in the Demo Content:
+All images are licensed with: CC0 1.0 Universal (CC0 1.0) License
+
 People Wearing an Academic Dress
 https://www.pexels.com/photo/people-wearing-an-academic-dress-7713245/
 
@@ -132,41 +135,10 @@ https://www.pexels.com/photo/classic-photo-of-employees-working-in-the-office-86
 Front Exterior of the Istanbul Technical University in Turkey
 https://www.pexels.com/photo/front-exterior-of-the-istanbul-technical-university-in-turkey-7770649/
 
-
-
-
-
-Starter content image, Copyright  Direct Media
-License: CC0 1.0 Universal (CC0 1.0)
-Source: https://stocksnap.io/photo/working-family-2KP6VVDMXQ
-
-Blog header image
-License: CC0 1.0 Universal (CC0 1.0)
-Source: https://pxhere.com/en/photo/911100
-
-Starter content image, Woman Sitting in Front of Computer in Office
-License: CC0 1.0 Universal (CC0 1.0)
-Source: https://www.pexels.com/photo/woman-sitting-in-front-of-computer-in-office-3861967/
-
-Contact page image,
+Female Engineer Holding Presentation
 License: CC0 1.0 Universal (CC0 1.0)
 Source: https://www.pexels.com/photo/female-engineer-holding-presentation-3861945/
 
-Starter content image
-License: CC0 1.0 Universal (CC0 1.0)
-Source: https://www.pexels.com/photo/woman-in-black-tank-top-3861962/
-
-Starter content image
-License: CC0 1.0 Universal (CC0 1.0)
-Source: https://www.pexels.com/photo/colleagues-looking-at-computer-screen-3861948/
-
-Starter content image
-License: CC0 1.0 Universal (CC0 1.0)
-Source: https://www.pexels.com/photo/engineers-developing-robotic-arm-3913031/
-
-Front page image (used in Screenshot too)
-License: CC0 1.0 Universal (CC0 1.0)
-Source: https://www.pexels.com/photo/adult-male-mechanic-fixing-metal-detail-in-workshop-3855343/
 
 Teeam member images
 License: CC0 1.0 Universal (CC0 1.0)
