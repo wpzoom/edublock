@@ -29,8 +29,8 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"left"}} -->
-<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"secondary"} -->
-<div class="wp-block-button"><a class="wp-block-button__link has-secondary-background-color has-background wp-element-button">Apply now</a></div>
+<div class="wp-block-buttons"><!-- wp:button {"className":"wpz-alt-button"} -->
+<div class="wp-block-button wpz-alt-button"><a class="wp-block-button__link wp-element-button">Apply now</a></div>
 <!-- /wp:button -->
 
 <!-- wp:button {"style":{"spacing":{"padding":{"top":"8px","right":"24px","bottom":"8px","left":"24px"}}},"className":"is-style-outline"} -->
@@ -274,8 +274,8 @@
 <!-- /wp:spacer -->
 
 <!-- wp:buttons -->
-<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"secondary","textColor":"white"} -->
-<div class="wp-block-button"><a class="wp-block-button__link has-white-color has-secondary-background-color has-text-color has-background wp-element-button">Learn more</a></div>
+<div class="wp-block-buttons"><!-- wp:button {"className":"wpz-alt-button"} -->
+<div class="wp-block-button wpz-alt-button"><a class="wp-block-button__link wp-element-button">Learn more</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:column --></div>
@@ -447,8 +447,8 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"left"}} -->
-<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"secondary"} -->
-<div class="wp-block-button"><a class="wp-block-button__link has-secondary-background-color has-background wp-element-button">Alumni Spotlight</a></div>
+<div class="wp-block-buttons"><!-- wp:button {"className":"wpz-alt-button"} -->
+<div class="wp-block-button wpz-alt-button"><a class="wp-block-button__link wp-element-button">Alumni Spotlight</a></div>
 <!-- /wp:button -->
 
 <!-- wp:button {"style":{"spacing":{"padding":{"top":"8px","right":"24px","bottom":"8px","left":"24px"}}},"className":"is-style-outline"} -->
@@ -969,8 +969,8 @@
 <!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column {"width":"15.5%"} -->
 <div class="wp-block-column" style="flex-basis:15.5%"><!-- wp:buttons -->
-<div class="wp-block-buttons"><!-- wp:button {"textColor":"primary","style":{"border":{"radius":"4px"}},"className":"is-style-outline"} -->
-<div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-primary-color has-text-color wp-element-button" href="#" style="border-radius:4px">Read all news</a></div>
+<div class="wp-block-buttons"><!-- wp:button {"style":{"border":{"radius":"4px"}},"className":"is-style-outline-background"} -->
+<div class="wp-block-button is-style-outline-background"><a class="wp-block-button__link wp-element-button" href="#" style="border-radius:4px">Read all news</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:column -->

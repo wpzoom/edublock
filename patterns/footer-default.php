@@ -7,11 +7,11 @@
  * Viewport Width: 1280
  */
 ?>
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"40px","bottom":"40px"},"margin":{"top":"0px"}},"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"backgroundColor":"header-footer","textColor":"white","className":"is-style-default","layout":{"type":"constrained","type":"constrained"},"fontSize":"small"} -->
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"40px","bottom":"40px"},"margin":{"top":"0px"}},"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"backgroundColor":"header-footer","textColor":"white","className":"is-style-default","layout":{"type":"constrained"},"fontSize":"small"} -->
 <div class="wp-block-group alignfull is-style-default has-white-color has-header-footer-background-color has-text-color has-background has-link-color has-small-font-size" style="margin-top:0px;padding-top:40px;padding-bottom:40px"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column -->
-<div class="wp-block-column"><!-- wp:heading {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|50"}}},"textColor":"tertiary"} -->
-<h2 class="has-tertiary-color has-text-color" style="margin-bottom:var(--wp--preset--spacing--50)"><?php echo get_bloginfo( 'name' ); ?></h2>
+<div class="wp-block-column"><!-- wp:heading {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|50"}}},"textColor":"white","fontSize":"max-36"} -->
+<h2 class="has-white-color has-text-color has-max-36-font-size" style="margin-bottom:var(--wp--preset--spacing--50)"><?php echo get_bloginfo( 'name' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -30,24 +30,24 @@
 <!-- /wp:column -->
 
 <!-- wp:column -->
-<div class="wp-block-column"><!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|50"}}},"textColor":"tertiary","fontSize":"small"} -->
-<h3 class="has-tertiary-color has-text-color has-small-font-size" style="margin-bottom:var(--wp--preset--spacing--50)">Company</h3>
+<div class="wp-block-column"><!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|50"}}},"textColor":"secondary"} -->
+<h3 class="has-secondary-color has-text-color" style="margin-bottom:var(--wp--preset--spacing--50)">Explore</h3>
 <!-- /wp:heading -->
 
 <!-- wp:page-list /--></div>
 <!-- /wp:column -->
 
 <!-- wp:column -->
-<div class="wp-block-column"><!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|50"}}},"textColor":"tertiary","fontSize":"small"} -->
-<h3 class="has-tertiary-color has-text-color has-small-font-size" style="margin-bottom:var(--wp--preset--spacing--50)">Legal</h3>
+<div class="wp-block-column"><!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|50"}}},"textColor":"secondary"} -->
+<h3 class="has-secondary-color has-text-color" style="margin-bottom:var(--wp--preset--spacing--50)">Resources</h3>
 <!-- /wp:heading -->
 
 <!-- wp:page-list /--></div>
 <!-- /wp:column -->
 
 <!-- wp:column -->
-<div class="wp-block-column"><!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|50"}}},"textColor":"tertiary","fontSize":"small"} -->
-<h3 class="has-tertiary-color has-text-color has-small-font-size" style="margin-bottom:var(--wp--preset--spacing--50)">Subscribe to our Newsletter</h3>
+<div class="wp-block-column"><!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|50"}}},"textColor":"secondary"} -->
+<h3 class="has-secondary-color has-text-color" style="margin-bottom:var(--wp--preset--spacing--50)">Newsletter</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -69,7 +69,7 @@
 
 <!-- wp:group {"layout":{"type":"flex","allowOrientation":false,"justifyContent":"space-between"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"textColor":"tertiary"} -->
-<p class="has-tertiary-color has-text-color">Copyright © <?php echo esc_html( gmdate( 'Y' ) ); ?> <?php echo get_bloginfo( 'name' ); ?></p>
+<p class="has-tertiary-color has-text-color">Copyright © 2022 EduBlock</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"tertiary"} -->

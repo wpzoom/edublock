@@ -39,7 +39,7 @@
 }
 
 .edublock-page-header__logo {
-  max-width: 150px;
+  max-width: 190px;
   vertical-align: middle;
 }
 
@@ -241,6 +241,13 @@
 .edublock-pro-demos__item img {
   width: 100%;
   display: block;
+}
+
+.theme_screenshot {
+    border: 2px solid #eee;
+    border-radius:10px;
+    margin:0 0 45px !important;
+    box-shadow: 0px 1px 18px rgba(0, 0, 0, 0.08);
 }
 
 .edublock-pro-demos__item-title {

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: EduBlock\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-16 11:26+0000\n"
+"POT-Creation-Date: 2022-12-16 11:11+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -16,7 +16,7 @@ msgstr ""
 "X-Loco-Version: 2.6.2; wp-6.0.2\n"
 "X-Domain: edublock"
 
-#: inc/admin/theme-admin.php:116
+#: inc/admin/theme-admin.php:126
 msgid "Are you are enjoying EduBlock? We would love to hear your feedback."
 msgstr ""
 
@@ -41,7 +41,7 @@ msgstr ""
 msgid "edublock"
 msgstr ""
 
-#: inc/admin/theme-admin.php:69 inc/admin/theme-admin.php:100
+#: inc/admin/theme-admin.php:69 inc/admin/theme-admin.php:110
 msgid "EduBlock Documentation"
 msgstr ""
 
@@ -71,8 +71,8 @@ msgid ""
 "&nbsp; https://www.wpzoom.com/documentation/edublock/"
 msgstr ""
 
-#: inc/admin/theme-admin.php:77
-msgid "EduBlock PRO - Coming Soon!"
+#: inc/admin/theme-admin.php:69 inc/admin/theme-admin.php:107
+msgid "EduBlock PRO"
 msgstr ""
 
 #: inc/admin/theme-admin.php:81
@@ -81,6 +81,10 @@ msgid ""
 "beautiful websites in seconds. Get access to <strong>premium block "
 "patterns</strong>, <strong>header & footer layouts</strong>, and a <strong>1-"
 "click demo content importer</strong> to help you get started quickly."
+msgstr ""
+
+#: inc/admin/theme-admin.php:77
+msgid "EduBlock PRO Now Available!"
 msgstr ""
 
 #: inc/admin/theme-admin.php:20
@@ -105,8 +109,19 @@ msgstr ""
 
 #: inc/admin/theme-admin.php:79
 msgid ""
-"Get Access to More Page Templates, Patterns, Header & Footer Layouts with "
-"the PRO Version!"
+"Get Access to More Patterns, Header & Footer Layouts with the PRO Version!"
+msgstr ""
+
+#: inc/admin/theme-admin.php:84
+msgid "Get EduBlock PRO &rarr;"
+msgstr ""
+
+#: inc/admin/theme-admin.php:96
+msgid "Get EduBlock PRO!"
+msgstr ""
+
+#: inc/admin/theme-admin.php:98
+msgid "Get the PRO Version &rarr;"
 msgstr ""
 
 #: inc/admin/theme-admin.php:64
@@ -125,7 +140,7 @@ msgstr ""
 msgid "https://www.wpzoom.com/themes/edublock/"
 msgstr ""
 
-#: inc/admin/theme-admin.php:115
+#: inc/admin/theme-admin.php:125
 msgid "Leave us a review"
 msgstr ""
 
@@ -187,28 +202,30 @@ msgstr ""
 msgid "Shadow"
 msgstr ""
 
-#: inc/admin/theme-admin.php:117
+#: inc/admin/theme-admin.php:127
 msgid "Submit a review"
 msgstr ""
 
-#: inc/admin/theme-admin.php:84
-msgid "Subscribe for Updates &rarr;"
-msgstr ""
-
-#: inc/admin/theme-admin.php:103
+#: inc/admin/theme-admin.php:113
 msgid "Support"
 msgstr ""
 
-#: inc/admin/theme-admin.php:96
+#: inc/admin/theme-admin.php:103
 msgid "Useful Links"
 msgstr ""
 
-#: inc/admin/theme-admin.php:109
+#: inc/admin/theme-admin.php:119
 msgid "View our Premium Plugins"
 msgstr ""
 
-#: inc/admin/theme-admin.php:106
+#: inc/admin/theme-admin.php:116
 msgid "View our Premium Themes"
+msgstr ""
+
+#: inc/admin/theme-admin.php:97
+msgid ""
+"We've released EduBlock PRO, an advanced version of the EduBlock theme. The "
+"PRO version includes additional patterns, header & footer layouts, and more."
 msgstr ""
 
 #. Author of the theme

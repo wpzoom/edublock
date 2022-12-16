@@ -46,8 +46,8 @@
 
 <!-- wp:columns {"verticalAlignment":"top","style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"}}}} -->
 <div class="wp-block-columns are-vertically-aligned-top" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:column {"verticalAlignment":"top","width":"50%","style":{"spacing":{"padding":{"right":"7%"}}},"layout":{"type":"default"}} -->
-<div class="wp-block-column is-vertically-aligned-top" style="padding-right:7%;flex-basis:50%"><!-- wp:heading {"textColor":"primary"} -->
-<h2 class="has-primary-color has-text-color">Get in touch</h2>
+<div class="wp-block-column is-vertically-aligned-top" style="padding-right:7%;flex-basis:50%"><!-- wp:heading {"textColor":"primary","fontSize":"max-36"} -->
+<h2 class="has-primary-color has-text-color has-max-36-font-size">Get in touch</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"tertiary"} -->
@@ -176,8 +176,8 @@
 <!-- /wp:column -->
 
 <!-- wp:column {"width":"50%"} -->
-<div class="wp-block-column" style="flex-basis:50%"><!-- wp:heading {"textAlign":"center","textColor":"primary"} -->
-<h2 class="has-text-align-center has-primary-color has-text-color">Facilisi cras fermentum odio eu feugiat</h2>
+<div class="wp-block-column" style="flex-basis:50%"><!-- wp:heading {"textAlign":"center","textColor":"primary","fontSize":"max-36"} -->
+<h2 class="has-text-align-center has-primary-color has-text-color has-max-36-font-size">Facilisi cras fermentum odio eu feugiat</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","textColor":"tertiary"} -->

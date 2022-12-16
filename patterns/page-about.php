@@ -819,8 +819,8 @@
 <!-- /wp:spacer -->
 
 <!-- wp:buttons -->
-<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"secondary"} -->
-<div class="wp-block-button"><a class="wp-block-button__link has-secondary-background-color has-background wp-element-button">Contact us</a></div>
+<div class="wp-block-buttons"><!-- wp:button {"className":"wpz-alt-button"} -->
+<div class="wp-block-button wpz-alt-button"><a class="wp-block-button__link wp-element-button">Contact us</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:column -->
@@ -841,13 +841,11 @@
 <!-- wp:html -->
 <form action="#">
 
-  <label for="name">Your Name</label>
-  <input type="text" id="name" name="name">
+  <input placeholder="Your Name" type="text" id="name" name="name">
 
-  <label for="email">Your Email</label>
-  <input type="text" id="email" name="email">
+   <input placeholder="Your Email" type="text" id="email" name="email">
 
-   <input type="submit" value="Submit">
+   <input type="submit" class="wpz-alt-button" value="Submit">
 
 </form>
 <!-- /wp:html -->

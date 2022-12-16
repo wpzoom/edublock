@@ -7,21 +7,7 @@
  */
 ?>
 <!-- wp:group {"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:columns -->
-<div class="wp-block-columns"><!-- wp:column {"width":"50%"} -->
-<div class="wp-block-column" style="flex-basis:50%"><!-- wp:heading {"textAlign":"left","textColor":"primary","fontSize":"max-48"} -->
-<h2 class="has-text-align-left has-primary-color has-text-color has-max-48-font-size">Latest News</h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph {"textColor":"tertiary"} -->
-<p class="has-tertiary-color has-text-color">This is some dummy copy. You’re not really supposed to read this dummy copy, it is just a place holder for people.</p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:column -->
-
-<!-- wp:column {"width":"50%"} -->
-<div class="wp-block-column" style="flex-basis:50%"></div>
-<!-- /wp:column --></div>
-<!-- /wp:columns -->
+<div class="wp-block-group">
 
 <!-- wp:spacer {"height":"81px"} -->
 <div style="height:81px" aria-hidden="true" class="wp-block-spacer"></div>
