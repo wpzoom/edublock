@@ -3,13 +3,13 @@ Contributors: WPZOOM
 Requires at least: 6.1
 Tested up to: 6.1
 Requires PHP: 7.2
-Stable tag: 1.1.4
+Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-EduBlock is a next-generation WordPress theme that adopts the Full Site Editing concept. Using the new Theme Editor, you have complete control over the design of your website. You can now change not just the colors and fonts in your theme but also make changes to the layout and global sections like the header and footer. The theme is fully GDPR-compliant and doesn't use any external Google Fonts. All fonts are locally hosted. The theme bundles 6 Color Schemes and 19 Block Patterns. DEMO CONTENT & Documentation can be found here: https://www.wpzoom.com/documentation/edublock/
+EduBlock is a next-generation WordPress theme that adopts the Full Site Editing concept. Using the new Theme Editor, you have complete control over the design of your website. You can now change not just the colors and fonts in your theme but also make changes to the layout and global sections like the header and footer. The theme is fully GDPR-compliant and doesn't use any external Google Fonts. All fonts are locally hosted. DEMO CONTENT & Documentation can be found here: https://www.wpzoom.com/documentation/edublock/
 
 == Changelog ==
 
@@ -18,10 +18,6 @@ EduBlock is a next-generation WordPress theme that adopts the Full Site Editing 
 
 
 == Copyright ==
-
-EduBlock is based on Frost WordPress Theme https://github.com/wpengine/frost, (C) 2022 WP Engine.
-Frost is distributed under the terms of the GNU GPL v2 or later.
-
 
 EduBlock WordPress Theme, (C) 2022 WPZOOM.
 EduBlock is distributed under the terms of the GNU GPL.
@@ -44,11 +40,6 @@ EduBlock bundles the following third-party resources:
 WPTT Webfont Loader - https://github.com/WPTT/webfont-loader
 License: Distributed under the terms of the MIT License (https://github.com/WPTT/webfont-loader/blob/master/LICENSE)
 Copyright: 2020 Ari Stathopoulos, WordPress Themes Team
-
-# Outfit Font
-Copyright 2021 The Outfit Project Authors (https://github.com/Outfitio/Outfit-Fonts)
-License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
-Source: https://github.com/Outfitio/Outfit-Fonts
 
 
 Code from Frost Theme
