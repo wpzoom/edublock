@@ -15,7 +15,7 @@
 <!-- wp:columns {"verticalAlignment":"center"} -->
 <div class="wp-block-columns are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center","width":"86%"} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:86%"><!-- wp:heading {"textAlign":"left","textColor":"white","fontSize":"max-48"} -->
-<h2 class="has-text-align-left has-white-color has-text-color has-max-48-font-size">Ready to enroll to<br>our University?</h2>
+<h2 class="has-text-align-left has-white-color has-text-color has-max-48-font-size">Ready to enroll in <br>our University?</h2>
 <!-- /wp:heading --></div>
 <!-- /wp:column -->
 
