@@ -8,7 +8,7 @@ Tags: blog, block-styles, grid-layout, one-column, two-columns, three-columns, f
 Requires at least: 6.1
 Tested up to: 6.1
 Requires PHP: 7.2
-Version: 1.0
+Version: 1.0.1
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: edublock
@@ -44,7 +44,6 @@ textarea:focus,
 }
 
 a,
-a:not(.wp-element-button),
 a:focus,
 a:hover {
     text-decoration: none;
@@ -53,6 +52,16 @@ a:hover {
 a:hover {
     text-decoration: underline;
     text-decoration-thickness: 2px;
+}
+
+.wp-block-comment-template .wp-block-comment-content a,
+.entry-content a {
+    text-decoration: underline;
+}
+
+.wp-block-comment-template .wp-block-comment-content a:hover,
+.entry-content a:hover {
+    text-decoration: none;
 }
 
 ol,

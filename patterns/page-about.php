@@ -28,7 +28,7 @@
 <div id="key-facts" class="wp-block-group has-background" style="background:linear-gradient(0deg,rgb(0,57,102) 81%,rgb(255,255,255) 81%)"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"align":"wide","id":6813,"sizeSlug":"large","linkDestination":"none","style":{"border":{"radius":"10px"}},"className":"is-style-rounded"} -->
-<figure class="wp-block-image alignwide size-large has-custom-border is-style-rounded"><img src="<?php echo esc_url( get_theme_file_uri() ) . '/assets/images/'; ?>pexels-bryce-carithers-11823038.jpg" alt="" class="wp-image-6813" style="border-radius:10px"/></figure>
+<figure class="wp-block-image alignwide size-large has-custom-border is-style-rounded"><img src="<?php echo esc_url( get_theme_file_uri() ) . '/assets/images/'; ?>architecture-house-building-city-home-downtown-629549-pxhere.com.jpg" alt="" class="wp-image-6813" style="border-radius:10px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:spacer {"height":"80px"} -->
@@ -331,7 +331,7 @@
 <!-- /wp:spacer -->
 
 <!-- wp:image {"id":6828,"sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":"10px"}},"className":"is-style-rounded"} -->
-<figure class="wp-block-image size-full has-custom-border is-style-rounded"><img src="<?php echo esc_url( get_theme_file_uri() ) . '/assets/images/'; ?>104.png" alt="" class="wp-image-6828" style="border-radius:10px"/></figure>
+<figure class="wp-block-image size-full has-custom-border is-style-rounded"><img src="<?php echo esc_url( get_theme_file_uri() ) . '/assets/images/'; ?>104.jpg" alt="" class="wp-image-6828" style="border-radius:10px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"textColor":"header-footer"} -->
@@ -430,8 +430,8 @@
 
 <!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column {"style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"}},"border":{"width":"0px","style":"none"}},"className":"is-style-default"} -->
-<div class="wp-block-column is-style-default" style="border-style:none;border-width:0px;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri() ) . '/assets/images/'; ?>pexels-kampus-production-5940832.jpg","id":6770,"dimRatio":90,"minHeight":760,"minHeightUnit":"px","gradient":"black-primary","className":"is-style-round-corners","style":{"spacing":{"padding":{"top":"var:preset|spacing|small","right":"var:preset|spacing|small","bottom":"var:preset|spacing|x-small","left":"var:preset|spacing|small"}}}} -->
-<div class="wp-block-cover is-style-round-corners" style="padding-top:var(--wp--preset--spacing--small);padding-right:var(--wp--preset--spacing--small);padding-bottom:var(--wp--preset--spacing--x-small);padding-left:var(--wp--preset--spacing--small);min-height:760px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-90 has-background-dim wp-block-cover__gradient-background has-background-gradient has-black-primary-gradient-background"></span><img class="wp-block-cover__image-background wp-image-6770" alt="" src="<?php echo esc_url( get_theme_file_uri() ) . '/assets/images/'; ?>pexels-kampus-production-5940832.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:spacer {"height":"495px"} -->
+<div class="wp-block-column is-style-default" style="border-style:none;border-width:0px;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri() ) . '/assets/images/'; ?>youth-community-student-education-mcn2010-convention-226286-pxhere.com.jpg","id":6770,"dimRatio":90,"minHeight":760,"minHeightUnit":"px","gradient":"black-primary","className":"is-style-round-corners","style":{"spacing":{"padding":{"top":"var:preset|spacing|small","right":"var:preset|spacing|small","bottom":"var:preset|spacing|x-small","left":"var:preset|spacing|small"}}}} -->
+<div class="wp-block-cover is-style-round-corners" style="padding-top:var(--wp--preset--spacing--small);padding-right:var(--wp--preset--spacing--small);padding-bottom:var(--wp--preset--spacing--x-small);padding-left:var(--wp--preset--spacing--small);min-height:760px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-90 has-background-dim wp-block-cover__gradient-background has-background-gradient has-black-primary-gradient-background"></span><img class="wp-block-cover__image-background wp-image-6770" alt="" src="<?php echo esc_url( get_theme_file_uri() ) . '/assets/images/'; ?>youth-community-student-education-mcn2010-convention-226286-pxhere.com.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:spacer {"height":"495px"} -->
 <div style="height:495px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
@@ -450,8 +450,8 @@
 <!-- /wp:column -->
 
 <!-- wp:column {"style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"}},"border":{"width":"0px","style":"none"}},"className":"is-style-default"} -->
-<div class="wp-block-column is-style-default" style="border-style:none;border-width:0px;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri() ) . '/assets/images/'; ?>92.png","id":6822,"dimRatio":90,"minHeight":760,"minHeightUnit":"px","gradient":"black-primary","className":"is-style-round-corners","style":{"spacing":{"padding":{"top":"var:preset|spacing|small","right":"var:preset|spacing|small","bottom":"var:preset|spacing|x-small","left":"var:preset|spacing|small"}}}} -->
-<div class="wp-block-cover is-style-round-corners" style="padding-top:var(--wp--preset--spacing--small);padding-right:var(--wp--preset--spacing--small);padding-bottom:var(--wp--preset--spacing--x-small);padding-left:var(--wp--preset--spacing--small);min-height:760px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-90 has-background-dim wp-block-cover__gradient-background has-background-gradient has-black-primary-gradient-background"></span><img class="wp-block-cover__image-background wp-image-6822" alt="" src="<?php echo esc_url( get_theme_file_uri() ) . '/assets/images/'; ?>92.png" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:spacer {"height":"495px"} -->
+<div class="wp-block-column is-style-default" style="border-style:none;border-width:0px;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri() ) . '/assets/images/'; ?>StockSnap_Y2AHVPYB51.jpg","id":6822,"dimRatio":90,"minHeight":760,"minHeightUnit":"px","gradient":"black-primary","className":"is-style-round-corners","style":{"spacing":{"padding":{"top":"var:preset|spacing|small","right":"var:preset|spacing|small","bottom":"var:preset|spacing|x-small","left":"var:preset|spacing|small"}}}} -->
+<div class="wp-block-cover is-style-round-corners" style="padding-top:var(--wp--preset--spacing--small);padding-right:var(--wp--preset--spacing--small);padding-bottom:var(--wp--preset--spacing--x-small);padding-left:var(--wp--preset--spacing--small);min-height:760px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-90 has-background-dim wp-block-cover__gradient-background has-background-gradient has-black-primary-gradient-background"></span><img class="wp-block-cover__image-background wp-image-6822" alt="" src="<?php echo esc_url( get_theme_file_uri() ) . '/assets/images/'; ?>StockSnap_Y2AHVPYB51.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:spacer {"height":"495px"} -->
 <div style="height:495px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
@@ -558,7 +558,7 @@
 <!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"top","width":"50%","style":{"border":{"width":"0px","style":"none"}},"layout":{"type":"default"}} -->
 <div class="wp-block-column is-vertically-aligned-top" style="border-style:none;border-width:0px;flex-basis:50%"><!-- wp:image {"id":6765,"sizeSlug":"large","linkDestination":"none","style":{"border":{"radius":"10px"}},"className":"is-style-default"} -->
-<figure class="wp-block-image size-large has-custom-border is-style-default"><img src="<?php echo esc_url( get_theme_file_uri() ) . '/assets/images/'; ?>pexels-keira-burton-6147276.jpg" alt="" class="wp-image-6765" style="border-radius:10px"/></figure>
+<figure class="wp-block-image size-large has-custom-border is-style-default"><img src="<?php echo esc_url( get_theme_file_uri() ) . '/assets/images/'; ?>architecture-wood-glass-building-hall-interior-design-1055205-pxhere.com.jpg" alt="" class="wp-image-6765" style="border-radius:10px"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
 

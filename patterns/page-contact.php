@@ -7,8 +7,8 @@
  */
 ?>
 <!-- wp:group {"tagName":"main","align":"full","style":{"spacing":{"margin":{"top":"0"}}},"className":"site-content","layout":{"type":"constrained"}} -->
-<main class="wp-block-group alignfull site-content" id="page-title" style="margin-top:0"><!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri() ) . '/assets/images/'; ?>pexels-bryce-carithers-11823038.jpg","id":6813,"dimRatio":80,"gradient":"black-primary","align":"full"} -->
-<div class="wp-block-cover alignfull"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-80 has-background-dim wp-block-cover__gradient-background has-background-gradient has-black-primary-gradient-background"></span><img class="wp-block-cover__image-background wp-image-6813" alt="" src="<?php echo esc_url( get_theme_file_uri() ) . '/assets/images/'; ?>pexels-bryce-carithers-11823038.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:group {"className":"is-style-default","layout":{"type":"constrained"}} -->
+<main class="wp-block-group alignfull site-content" id="page-title" style="margin-top:0"><!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri() ) . '/assets/images/'; ?>architecture-house-building-city-home-downtown-629549-pxhere.com.jpg","id":6813,"dimRatio":80,"gradient":"black-primary","align":"full"} -->
+<div class="wp-block-cover alignfull"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-80 has-background-dim wp-block-cover__gradient-background has-background-gradient has-black-primary-gradient-background"></span><img class="wp-block-cover__image-background wp-image-6813" alt="" src="<?php echo esc_url( get_theme_file_uri() ) . '/assets/images/'; ?>architecture-house-building-city-home-downtown-629549-pxhere.com.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:group {"className":"is-style-default","layout":{"type":"constrained"}} -->
 <div class="wp-block-group is-style-default"><!-- wp:spacer {"height":"153px"} -->
 <div style="height:153px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
@@ -196,11 +196,15 @@
 
 <!-- wp:columns {"style":{"border":{"radius":"0px"}}} -->
 <div class="wp-block-columns" style="border-radius:0px"><!-- wp:column {"verticalAlignment":"center","width":"","style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"var:preset|spacing|medium","left":"0"}},"border":{"width":"0px","style":"none"}},"layout":{"type":"default"}} -->
-<div class="wp-block-column is-vertically-aligned-center" style="border-style:none;border-width:0px;padding-top:0;padding-right:0;padding-bottom:var(--wp--preset--spacing--medium);padding-left:0"><!-- wp:webfactory/map {"zoom":13,"height":550,"address":"1500 Broadway, New York, NY 10036, United States"} -->
-<div class="wp-block-webfactory-map"><div class="wp-block-webfactory-map"><iframe width="100%" height="550px" src="https://www.google.com/maps/embed/v1/place?q=1500%20Broadway%2C%20New%20York%2C%20NY%2010036%2C%20United%20States&amp;maptype=roadmap&amp;zoom=13&amp;key=AIzaSyAjyDspiPfzEfjRSS5fQzm-3jHFjHxeXB4" frameborder="0"></iframe></div></div>
-<!-- /wp:webfactory/map --></div>
+<div class="wp-block-column is-vertically-aligned-center" style="border-style:none;border-width:0px;padding-top:0;padding-right:0;padding-bottom:var(--wp--preset--spacing--medium);padding-left:0"><!-- wp:image {"id":6919,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_theme_file_uri() ) . '/assets/images/'; ?>map.png" alt="" class="wp-image-6919"/></figure>
+<!-- /wp:image --></div>
 <!-- /wp:column --></div>
-<!-- /wp:columns --></main>
+<!-- /wp:columns -->
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph --></main>
 <!-- /wp:group -->
 
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|x-large","bottom":"var:preset|spacing|x-large"}}},"layout":{"type":"constrained"}} -->

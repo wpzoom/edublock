@@ -3,7 +3,7 @@ Contributors: WPZOOM
 Requires at least: 6.1
 Tested up to: 6.1
 Requires PHP: 7.2
-Stable tag: 1.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,6 +12,11 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 EduBlock is a next-generation WordPress theme that adopts the Full Site Editing concept. Using the new Theme Editor, you have complete control over the design of your website. You can now change not just the colors and fonts in your theme but also make changes to the layout and global sections like the header and footer. The theme is fully GDPR-compliant and doesn't use any external Google Fonts. All fonts are locally hosted. DEMO CONTENT & Documentation can be found here: https://www.wpzoom.com/documentation/edublock/
 
 == Changelog ==
+
+= 1.0.1 =
+* Replaced all demo images with CC0 images
+* Fix links in content by adding underline
+* Removed iframe Google Maps from the Contact template
 
 = 1.0  =
 * Initial release
@@ -65,78 +70,40 @@ Included as part of the following classes and functions:
 Images used in the Demo Content:
 All images are licensed with: CC0 1.0 Universal (CC0 1.0) License
 
-People Wearing an Academic Dress
-https://www.pexels.com/photo/people-wearing-an-academic-dress-7713245/
+Ohio University Campus
+https://skitterphoto.com/photos/10989/ohio-university-campus
 
-Photo Of Woman Reading A Book
-https://www.pexels.com/photo/photo-of-woman-reading-a-book-6334056/
+Architecture Building Free Stock Image
+https://stocksnap.io/photo/architecture-building-4B1IQUY1C3
 
-A Woman Teaching a Young Man
-https://www.pexels.com/photo/a-woman-teaching-a-young-man-12197305/
+People Girls Free Stock Image
+https://stocksnap.io/photo/people-girls-Y2AHVPYB51
 
-Red Building during Day Time
-https://www.pexels.com/photo/red-building-during-day-time-2170498/
+Historical Library
+https://pickupimage.com/free-photos/Historical-library/2340238
 
-Man in Beige Dress Shirt Sitting on Brown Chair
-https://www.pexels.com/photo/man-in-beige-dress-shirt-sitting-on-brown-chair-9572416/
+People Student Free Stock Image
+https://stocksnap.io/photo/people-student-EWT7K0DQLN
 
-Stacks of books on shelves in library
-https://www.pexels.com/photo/stacks-of-books-on-shelves-in-library-5407044/
+Table Chairs Free Stock Image
+https://stocksnap.io/photo/table-chairs-II8IZ684IW
 
-Person Swimming on Body of Water
-https://www.pexels.com/photo/person-swimming-on-body-of-water-863988/
+Woman Reading Free Stock Image
+https://stocksnap.io/photo/woman-reading-VJM1ZWXLPY
 
-Man in Blue Academic Dress Smiling
-https://www.pexels.com/photo/man-in-blue-academic-dress-smiling-4446163/
+https://pxhere.com/en/photo/1055205
+https://pxhere.com/en/photo/629549
+https://pxhere.com/en/photo/971475
+https://pxhere.com/en/photo/539676
+https://pxhere.com/en/photo/368475
+https://pxhere.com/en/photo/226286
+https://pxhere.com/en/photo/199068
+https://pxhere.com/en/photo/757603
+https://pxhere.com/en/photo/1451439
+https://pxhere.com/en/photo/1187469
+https://pxhere.com/en/photo/1443457
+https://pxhere.com/en/photo/1449941
+https://pxhere.com/en/photo/546682
 
-Woman Smiling at the Camera
-https://www.pexels.com/photo/woman-smiling-at-the-camera-1181686/
-
-Woman with Pink Hair Sorting Clothes
-https://www.pexels.com/photo/woman-with-pink-hair-sorting-clothes-6994832/
-
-Photo Of Man Holding Mic
-https://www.pexels.com/photo/photo-of-man-holding-mic-3321793/
-
-People Studying Inside A Library
-https://www.pexels.com/photo/people-studying-inside-a-library-6344238/
-
-Assorted-title Books in a Library
-https://www.pexels.com/photo/assorted-title-books-in-a-library-2925306/
-
-Man and Woman Studying at a Park
-https://www.pexels.com/photo/man-and-woman-studying-at-a-park-6147276/
-
-Starter content image
-License: CC0 1.0 Universal (CC0 1.0)
-Source: https://www.pexels.com/photo/woman-in-black-tank-top-3861962/
-
-College Students Researching at the Library
-https://www.pexels.com/photo/college-students-researching-at-the-library-6549627/
-
-Buildings Inside the University of Washington
-https://www.pexels.com/photo/buildings-inside-the-university-of-washington-11823038/
-
-Man in Gray Sweater Sitting on Chair Using Laptop
-https://www.pexels.com/photo/man-in-gray-sweater-sitting-on-chair-using-laptop-7245796/
-
-Classic Photo of Employees Working In The Office
-https://www.pexels.com/photo/classic-photo-of-employees-working-in-the-office-8657762/
-
-Front Exterior of the Istanbul Technical University in Turkey
-https://www.pexels.com/photo/front-exterior-of-the-istanbul-technical-university-in-turkey-7770649/
-
-Female Engineer Holding Presentation
-License: CC0 1.0 Universal (CC0 1.0)
-Source: https://www.pexels.com/photo/female-engineer-holding-presentation-3861945/
-
-
-Teeam member images
-License: CC0 1.0 Universal (CC0 1.0)
-Source:
-https://www.pexels.com/photo/man-wearing-white-dress-shirt-and-black-blazer-2182970/
-https://www.pexels.com/photo/woman-holding-a-tablet-6579980/
-https://www.pexels.com/photo/man-wearing-black-suit-jacket-and-pants-937481/
-https://www.pexels.com/photo/young-ethnic-self-assured-woman-in-white-room-4257878/
-https://www.pexels.com/photo/woman-smiling-at-the-camera-1181686/
-https://www.pexels.com/photo/gray-scale-bearded-man-842980/
+Woman Business Free Stock Image
+https://stocksnap.io/photo/woman-business-X0XJR9QNN8
