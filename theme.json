@@ -61,7 +61,7 @@
             "defaultPalette": false,
             "gradients": [
                 {
-                    "gradient": "linear-gradient(0deg,rgb(0,57,102) 0%,rgba(0,58,102,0) 100%)",
+                    "gradient": "linear-gradient(0deg,var(--wp--preset--color--primary) 0%,rgba(0,58,102,0) 100%)",
                     "name": "Secondary to Light",
                     "slug": "black-primary"
                 },
@@ -215,6 +215,11 @@
                     "slug": "bitter"
                 },
                 {
+                    "fontFamily": "Cormorant Garamond, serif",
+                    "name": "Cormorant Garamond",
+                    "slug": "cormorant-garamond"
+                },
+                {
                     "fontFamily": "Crimson Pro, serif",
                     "name": "Crimson Pro",
                     "slug": "crimson-pro"
@@ -315,6 +320,11 @@
                     "slug": "oswald"
                 },
                 {
+                    "fontFamily": "Philosopher, sans-serif",
+                    "name": "Philosopher",
+                    "slug": "philosopher"
+                },
+                {
                     "fontFamily": "Playfair Display, serif",
                     "name": "Playfair Display",
                     "slug": "playfair-display"
@@ -338,6 +348,11 @@
                     "fontFamily": "Roboto, sans-serif",
                     "name": "Roboto",
                     "slug": "roboto"
+                },
+                {
+                    "fontFamily": "Roboto Condensed, sans-serif",
+                    "name": "Roboto Condensed",
+                    "slug": "roboto-condensed"
                 },
                 {
                     "fontFamily": "Rubik, sans-serif",
@@ -787,7 +802,7 @@
             },
             "h1": {
                 "color": {
-                    "text": "#003966"
+                    "text": "var(--wp--preset--color--primary)"
                 },
                 "typography": {
                     "fontFamily": "Epilogue, sans-serif",
@@ -826,7 +841,7 @@
             },
             "heading": {
                 "color": {
-                    "text": "#003966"
+                    "text": "var(--wp--preset--color--primary)"
                 },
                 "typography": {
                     "fontFamily": "Epilogue, sans-serif"
@@ -835,7 +850,7 @@
             "link": {
                 ":hover": {
                     "color": {
-                        "text": "#cf6514"
+                        "text": "var(--wp--preset--color--primary)"
                     }
                 },
                 "color": {

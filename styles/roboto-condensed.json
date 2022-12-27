@@ -1,0 +1,111 @@
+{
+    "version": 2,
+    "title": "Roboto Condensed",
+    "settings": {
+        "custom": {
+            "heading": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--roboto-condensed)"
+                }
+            }
+        },
+        "color": {
+            "palette": [
+                {
+                    "color": "#1B1D1C",
+                    "name": "Primary",
+                    "slug": "primary"
+                },
+                {
+                    "color": "#EA1821",
+                    "name": "Secondary",
+                    "slug": "secondary"
+                },
+                {
+                    "color": "#2e2e2e",
+                    "name": "Header & Footer",
+                    "slug": "header-footer"
+                },
+                {
+                    "color": "#6C6C77",
+                    "name": "Tertiary",
+                    "slug": "tertiary"
+                },
+                {
+                    "color": "#ececec",
+                    "name": "LightGrey",
+                    "slug": "lightgrey"
+                },
+                {
+                    "color": "#000",
+                    "name": "Foreground",
+                    "slug": "foreground"
+                },
+                {
+                    "color": "#fafafa",
+                    "name": "Background",
+                    "slug": "background"
+                },
+                {
+                    "color": "#ffffff",
+                    "name": "White",
+                    "slug": "white"
+                },
+                {
+                    "color": "#ffffff",
+                    "name": "Light Background",
+                    "slug": "light-background"
+                }
+            ]
+        }
+    },
+    "styles": {
+        "blocks": {
+            "core/heading": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--roboto-condensed)"
+                }
+            },
+            "core/post-title": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--roboto-condensed)"
+                }
+            }
+        },
+        "elements": {
+            "h1": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--roboto-condensed)"
+                }
+            },
+            "h2": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--roboto-condensed)"
+                }
+            },
+            "h3": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--roboto-condensed)"
+                }
+            },
+            "h4": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--roboto-condensed)"
+                }
+            },
+            "h5": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--roboto-condensed)"
+                }
+            },
+            "h6": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--roboto-condensed)"
+                }
+            }
+        },
+        "typography": {
+            "fontFamily": "var(--wp--preset--font-family--roboto)"
+        }
+    }
+}

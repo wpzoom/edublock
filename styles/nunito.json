@@ -1,0 +1,111 @@
+{
+    "version": 2,
+    "title": "Nunito",
+    "settings": {
+        "custom": {
+            "heading": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--nunito)"
+                }
+            }
+        },
+        "color": {
+            "palette": [
+                {
+                    "color": "#3B755F",
+                    "name": "Primary",
+                    "slug": "primary"
+                },
+                {
+                    "color": "#F6C346",
+                    "name": "Secondary",
+                    "slug": "secondary"
+                },
+                {
+                    "color": "#2e2e2e",
+                    "name": "Header & Footer",
+                    "slug": "header-footer"
+                },
+                {
+                    "color": "#6C6C77",
+                    "name": "Tertiary",
+                    "slug": "tertiary"
+                },
+                {
+                    "color": "#ececec",
+                    "name": "LightGrey",
+                    "slug": "lightgrey"
+                },
+                {
+                    "color": "#000",
+                    "name": "Foreground",
+                    "slug": "foreground"
+                },
+                {
+                    "color": "#fafafa",
+                    "name": "Background",
+                    "slug": "background"
+                },
+                {
+                    "color": "#ffffff",
+                    "name": "White",
+                    "slug": "white"
+                },
+                {
+                    "color": "#ffffff",
+                    "name": "Light Background",
+                    "slug": "light-background"
+                }
+            ]
+        }
+    },
+    "styles": {
+        "blocks": {
+            "core/heading": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--nunito)"
+                }
+            },
+            "core/post-title": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--nunito)"
+                }
+            }
+        },
+        "elements": {
+            "h1": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--nunito)"
+                }
+            },
+            "h2": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--nunito)"
+                }
+            },
+            "h3": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--nunito)"
+                }
+            },
+            "h4": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--nunito)"
+                }
+            },
+            "h5": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--nunito)"
+                }
+            },
+            "h6": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--nunito)"
+                }
+            }
+        },
+        "typography": {
+            "fontFamily": "var(--wp--preset--font-family--open-sans)"
+        }
+    }
+}
