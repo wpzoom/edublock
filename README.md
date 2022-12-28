@@ -1,11 +1,15 @@
-# EduBlock - Coming Soon!
+# EduBlock - Full Site Editing Theme for Education Websites
 
+![EduBlock Theme](https://demo.wpzoom.com/uniblock/wp-content/themes/edublock/screenshot.png)
 
 ## About
 
-...
+EduBlock is a WordPress theme for education websites that features a modern design and support for the new Site Editor. It includes custom page templates with sections to showcase all the needed information for a University, College, or School website.
+
 
 Download the latest stable [release](https://github.com/wpzoom/edublock/releases)
+
+Demo: https://demo.wpzoom.com/edublock/
 
 
 ## Requirements
