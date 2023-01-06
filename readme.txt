@@ -3,7 +3,7 @@ Contributors: WPZOOM
 Requires at least: 6.1
 Tested up to: 6.1
 Requires PHP: 7.2
-Stable tag: 1.1.2
+Stable tag: 1.1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,6 +12,9 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 EduBlock is a WordPress theme for education websites that features a modern design and support for the new Site Editor. It includes custom page templates with sections to showcase all the needed information for a University, College, or School website. The theme is fully GDPR-compliant and doesn't use any external Google Fonts. All fonts are locally hosted. The PRO version can be found here: https://www.wpzoom.com/themes/edublock-pro/
 
 == Changelog ==
+
+= 1.1.3 =
+* Improvements to Block Patterns
 
 = 1.1.2 =
 * Fixed mentions about the PRO version
