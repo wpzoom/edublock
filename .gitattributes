@@ -25,3 +25,6 @@ package-lock.json export-ignore
 package.json export-ignore
 composer.json export-ignore
 composer.lock export-ignore
+.stylelintrc.json export-ignore
+phpcs.xml export-ignore
+README.md export-ignore
