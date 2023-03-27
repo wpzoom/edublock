@@ -16,18 +16,18 @@
             "title": "Blog"
         },
         {
+            "name": "front",
+            "postTypes": [
+                "page"
+            ],
+            "title": "Homepage"
+        },
+        {
             "name": "contact",
             "postTypes": [
                 "page"
             ],
             "title": "Contact"
-        },
-        {
-            "name": "home",
-            "postTypes": [
-                "page"
-            ],
-            "title": "Homepage"
         },
         {
             "name": "single-full",

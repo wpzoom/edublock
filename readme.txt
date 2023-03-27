@@ -1,9 +1,9 @@
 === EduBlock ===
 Contributors: WPZOOM
 Requires at least: 6.1
-Tested up to: 6.1
+Tested up to: 6.2
 Requires PHP: 7.2
-Stable tag: 1.1.3
+Stable tag: 1.1.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,6 +12,11 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 EduBlock is a WordPress theme for education websites that features a modern design and support for the new Site Editor. It includes custom page templates with sections to showcase all the needed information for a University, College, or School website. The theme is fully GDPR-compliant and doesn't use any external Google Fonts. All fonts are locally hosted. The PRO version can be found here: https://www.wpzoom.com/themes/edublock-pro/
 
 == Changelog ==
+
+= 1.1.4 =
+* ⚠️ IMPORTANT: In order to offer more control over your website, we've made changes to the included page templates. Now you can assign any page with any template as your front page. The front and blog pages will now respect the configuration set in Settings > Reading.
+* The front-page.html file was removed to allow assigning any page as the front page
+* Added new "Homepage" page template
 
 = 1.1.3 =
 * Improvements to Block Patterns
@@ -120,3 +125,8 @@ https://pxhere.com/en/photo/546682
 
 Woman Business Free Stock Image
 https://stocksnap.io/photo/woman-business-X0XJR9QNN8
+
+== Upgrade Notice ==
+
+= 1.1.4 =
+⚠️ IMPORTANT: In order to offer more control over your website, we've made changes to the included page templates. Now you can assign any page with any template as your front page. The front and blog pages will now respect the configuration set in Settings > Reading.
