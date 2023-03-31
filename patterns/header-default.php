@@ -8,7 +8,7 @@
  */
 ?>
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"20px","bottom":"30px","right":"30px","left":"30px"},"margin":{"top":"0px"}}},"className":"is-style-default","layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull is-style-default" style="margin-top:0px;padding-top:20px;padding-right:30px;padding-bottom:30px;padding-left:30px"><!-- wp:navigation {"ref":33,"layout":{"type":"flex","justifyContent":"right"},"fontSize":"small"} /-->
+<div class="wp-block-group alignfull is-style-default" style="margin-top:0px;padding-top:20px;padding-right:30px;padding-bottom:30px;padding-left:30px"><!-- wp:navigation {"layout":{"type":"flex","justifyContent":"right"},"fontSize":"small"} --><!-- wp:page-list /--><!-- /wp:navigation -->
 
 <!-- wp:separator {"style":{"spacing":{"margin":{"top":"15px","bottom":"0px"}}},"backgroundColor":"lightgrey","className":"is-style-wide"} -->
 <hr class="wp-block-separator has-text-color has-lightgrey-color has-alpha-channel-opacity has-lightgrey-background-color has-background is-style-wide" style="margin-top:15px;margin-bottom:0px"/>
@@ -17,7 +17,7 @@
 <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
 <div class="wp-block-group"><!-- wp:site-title {"textAlign":"left","style":{"spacing":{"margin":{"right":"0px"}},"typography":{"letterSpacing":"2px","fontStyle":"normal","fontWeight":"600"},"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}},"fontSize":"max-36"} /-->
 
-<!-- wp:navigation {"ref":34,"layout":{"type":"flex","orientation":"horizontal","justifyContent":"left"},"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}}} /-->
+<!-- wp:navigation {"layout":{"type":"flex","orientation":"horizontal","justifyContent":"left"},"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}}} --><!-- wp:page-list /--><!-- /wp:navigation -->
 
 <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left"}} -->
 <div class="wp-block-group"><!-- wp:outermost/icon-block {"iconName":"","iconColor":"secondary","iconColorValue":"var(--wp--preset--color--secondary)","width":27,"style":{"spacing":{"margin":{"top":"0","right":"0","bottom":"0","left":"0"},"padding":{"top":"0","right":"0","bottom":"0","left":"0"}}}} -->

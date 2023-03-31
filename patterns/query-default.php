@@ -29,7 +29,7 @@
 
 <!-- wp:post-excerpt /-->
 
-<!-- wp:read-more {"content":"\u003cstrong\u003eRead more → \u003c/strong\u003e\u003ca role=\u0022document\u0022 aria-multiline=\u0022true\u0022 aria-label=\u0022Block: Read More\u0022 tabindex=\u00220\u0022 class=\u0022block-editor-rich-text__editable block-editor-block-list__block wp-block has-secondary-color has-white-background-color has-text-color has-background is-selected remove-outline wp-block-read-more rich-text\u0022 id=\u0022block-63cbfbfd-f8d4-4a03-ae54-d3f75e0a05bb\u0022 data-block=\u002263cbfbfd-f8d4-4a03-ae54-d3f75e0a05bb\u0022 data-title=\u0022Read More\u0022 style=\u0022font-family: var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dfont-family\u002d\u002dinter); font-size: var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dfont-size\u002d\u002dsmall); font-weight: var(\u002d\u002dwp\u002d\u002dcustom\u002d\u002dfont-weight\u002d\u002dregular); min-width: 1px; padding: 0px; background-color: rgb(255, 255, 255); color: rgb(238, 119, 29); display: inline !important;\u0022 data-type=\u0022core/read-more\u0022\u003e\u003c/a\u003e","style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"}}},"backgroundColor":"white","textColor":"secondary"} /-->
+<!-- wp:read-more {"content":"\u003cstrong\u003eRead more →\u003c/strong\u003e","style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"}}},"backgroundColor":"white","textColor":"secondary"} /-->
 
 <!-- wp:spacer {"height":"71px"} -->
 <div style="height:71px" aria-hidden="true" class="wp-block-spacer"></div>
