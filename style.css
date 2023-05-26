@@ -769,7 +769,7 @@ textarea,
     border: 1px solid var(--wp--preset--color--lightgrey);
     border-radius: 3px;
     color: var(--wp--preset--color--secondary);
-    font-family: var(--wp--preset--font-family--outfit);
+    font-family: var(--wp--preset--font-family--inter);
     font-size: var(--wp--preset--font-size-small);
     font-weight: var(--wp--custom--font-weight--regular);
     line-height: var(--wp--custom--line-height--body);
