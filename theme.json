@@ -587,7 +587,7 @@
                     }
                 },
                 "typography": {
-                    "fontFamily": "var(--wp--custom--font-weight--medium)",
+                    "fontFamily": "var(--wp--preset--font-family--epilogue)",
                     "fontWeight": "var(--wp--custom--font-weight--semi-bold)",
                     "lineHeight": "var(--wp--custom--line-height--heading)"
                 }
@@ -805,32 +805,32 @@
                     "text": "var(--wp--preset--color--primary)"
                 },
                 "typography": {
-                    "fontFamily": "Epilogue, sans-serif",
+                    "fontFamily": "var(--wp--preset--font-family--epilogue)",
                     "fontSize": "var(--wp--preset--font-size--x-large)",
                     "lineHeight": "1.2"
                 }
             },
             "h2": {
                 "typography": {
-                    "fontFamily": "Epilogue, sans-serif",
+                    "fontFamily": "var(--wp--preset--font-family--epilogue)",
                     "fontSize": "var(--wp--preset--font-size--large)"
                 }
             },
             "h3": {
                 "typography": {
-                    "fontFamily": "Epilogue, sans-serif",
+                    "fontFamily": "var(--wp--preset--font-family--epilogue)",
                     "fontSize": "var(--wp--preset--font-size--large)"
                 }
             },
             "h4": {
                 "typography": {
-                    "fontFamily": "Epilogue, sans-serif",
+                    "fontFamily": "var(--wp--preset--font-family--epilogue)",
                     "fontSize": "var(--wp--preset--font-size--medium)"
                 }
             },
             "h5": {
                 "typography": {
-                    "fontFamily": "Epilogue, sans-serif",
+                    "fontFamily": "var(--wp--preset--font-family--epilogue)",
                     "fontSize": "var(--wp--preset--font-size--small)"
                 }
             },
@@ -844,7 +844,7 @@
                     "text": "var(--wp--preset--color--primary)"
                 },
                 "typography": {
-                    "fontFamily": "Epilogue, sans-serif"
+                    "fontFamily": "var(--wp--preset--font-family--epilogue)"
                 }
             },
             "link": {
@@ -857,7 +857,7 @@
                     "text": "var:preset|color|secondary"
                 },
                 "typography": {
-                    "fontFamily": "Inter, sans-serif"
+                    "fontFamily": "var(--wp--preset--font-family--inter)"
                 }
             }
         },
