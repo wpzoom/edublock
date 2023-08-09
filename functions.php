@@ -173,79 +173,166 @@ if ( ! function_exists( 'edublock_admin_scripts' ) ) :
     add_action( 'admin_enqueue_scripts', 'edublock_admin_scripts' );
 endif;
 
+function edublock_theme_get_custom_typography() {
+
+	$font_families = array();
+
+	$args = array(
+		'post_type'      => 'wp_global_styles',
+		'posts_per_page' => 1,
+	);
+	
+	$get_custom_styles = get_posts( $args );
+	
+	if( !empty( $get_custom_styles ) ) {
+		
+		$styles = $get_custom_styles[0]->post_content;
+		$styles = json_decode( $styles, true );
+		$font_families = edublock_theme_extract_font_families( $styles );
+	}
+
+	return $font_families;
+
+}
+
+function edublock_theme_extract_font_families( $data = array() ) {
+
+	if( empty( $data ) ) {
+		return array();
+	}
+
+	$pattern  = '/var:preset\|font-family\|([^|]+)/';
+	$pattern2 = '/var\(--wp--preset--font-family--(\w+)\)/';
+	$preset_patern = 'var(--wp--preset--font-family--';
+
+	$font_families = $matches = $matches2 = array();
+
+	foreach ( $data as $key => $value ) {
+        
+		if( $key === 'fontFamily') {
+
+			if ( strpos( $value, $preset_patern ) !== false ) {
+				if ( preg_match( $pattern2, $value, $matches2 ) ) {
+					$value = $matches2[1];
+					$font_families[] = $value;	
+				}
+			} else {
+				if( preg_match_all( $pattern, $value, $matches ) ) {
+					$value = end( $matches[1] );
+				}
+				$font_families[] = $value;
+			}
+		} elseif ( is_array( $value ) ) {
+			$font_families = array_merge( $font_families, edublock_theme_extract_font_families( $value ) );
+        }
+    }
+
+	$font_families = array_unique( $font_families );	
+
+	return $font_families;
+}
+
 
 /**
 * Enqueue theme fonts.
 */
 function edublock_theme_fonts() {
-    $fonts_url = edublock_get_fonts_url();
+
+	$fonts_url = edublock_get_fonts_url();
 
     // Load Fonts if necessary.
     if ( $fonts_url ) {
-        require_once get_theme_file_path( 'inc/wptt-webfont-loader.php' );
 
+		require_once get_theme_file_path( 'inc/wptt-webfont-loader.php' );
         wp_enqueue_style( 'edublock-theme-fonts', wptt_get_webfont_url( $fonts_url ), array(), wp_get_theme()->get( 'Version' ) );
-
-        add_editor_style( $fonts_url );
 
     }
 
 }
-add_action( 'admin_init', 'edublock_theme_fonts', 1 );
 add_action( 'wp_enqueue_scripts', 'edublock_theme_fonts', 1 );
-add_action( 'enqueue_block_editor_assets', 'edublock_theme_fonts', 1 );
 
+/*
+ * Gutenberg Editor CSS
+ *
+ * Load a stylesheet for customizing the Gutenberg editor
+ * including support for Google Fonts and @import rules.
+ */
+function edublock_theme_gutenberg_editor_css() {
+  
+	wp_enqueue_style( 
+		'uniblock-theme-editor-css', 
+		get_stylesheet_directory_uri() . '/assets/admin/css/editor-google-fonts.css', 
+		array(), 
+		wp_get_theme()->get( 'Version' ) 
+	);
+  
+}
+add_action( 'enqueue_block_editor_assets', 'edublock_theme_gutenberg_editor_css' );
 
 /**
  * Retrieve webfont URL to load fonts locally.
  */
 function edublock_get_fonts_url() {
-    $font_families = array(
-        'Alegreya:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900',
-        'Archivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900',
-        'Bitter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900',
-        'Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700',
-        'Crimson+Pro:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600',
-        'DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700',
-        'Epilogue:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900',
-        'Figtree:wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900',
-        'IBM+Plex+Mono:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700',
-        'IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700',
-        'Inter:wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900',
-        'Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700',
-        'Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900',
-        'Lexend:wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900',
-        'Libre+Baskerville:ital,wght@0,400;0,700;1,400',
-        'Libre+Franklin:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900',
-        'Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700',
-        'Manrope:wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800',
-        'Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900',
-        'Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900',
-        'Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000',
-        'Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000',
-        'Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800',
-        'Oswald:wght@0,200;0,300;0,400;0,500;0,600;0,700',
-        'Philosopher:ital,wght@0,400;0,700;1,400;1,700',
-        'Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900',
-        'Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900',
-        'Quicksand:wght@0,300;0,400;0,500;0,600;0,700',
-        'Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900',
-        'Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900',
-        'Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700',
-        'Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900',
-        'Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900',
-        'Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900',
-        'Space+Grotesk:wght@0,300;0,400;0,500;0,600;0,700',
-        'Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900',
-        'Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900',
-        'Yeseva+One'
-    );
 
-    $query_args = array(
-        'family'  => implode( '|', $font_families ),
-        'subset'  => urlencode( 'latin,latin-ext' ),
-        'display' => urlencode( 'swap' ),
+	$fonts_to_download = array();
+    
+	$font_families = array(
+        'alegreya'           => 'Alegreya:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900',
+        'archivo'            => 'Archivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900',
+        'bitter'             => 'Bitter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900',
+        'cormorant-garamond' => 'Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700',
+        'crimson-pro'        => 'Crimson+Pro:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600',
+        'dm-sans'            => 'DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700',
+        'epilogue'           => 'Epilogue:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900',
+        'figtree'            => 'Figtree:wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900',
+        'ibm-plex-mono'      => 'IBM+Plex+Mono:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700',
+        'ibm-plex-sans'      => 'IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700',
+        'inter'              => 'Inter:wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900',
+        'josefin-sans'       => 'Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700',
+        'jost'               => 'Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900',
+        'lexend'             => 'Lexend:wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900',
+        'libre-baskerville'  => 'Libre+Baskerville:ital,wght@0,400;0,700;1,400',
+        'libre-franklin'     => 'Libre+Franklin:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900',
+        'lora'               => 'Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700',
+        'manrope'            => 'Manrope:wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800',
+        'merriweather'       => 'Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900',
+        'montserrat'         => 'Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900',
+        'mulish'             => 'Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000',
+        'nunito'             => 'Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000',
+        'open-sans'          => 'Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800',
+        'oswald'             => 'Oswald:wght@0,200;0,300;0,400;0,500;0,600;0,700',
+        'philosopher'        => 'Philosopher:ital,wght@0,400;0,700;1,400;1,700',
+        'playfair-display'   => 'Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900',
+        'poppins'            => 'Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900',
+        'quicksand'          => 'Quicksand:wght@0,300;0,400;0,500;0,600;0,700',
+        'raleway'            => 'Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900',
+        'roboto'             => 'Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900',
+        'roboto-condensed'   => 'Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700',
+        'rubik'              => 'Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900',
+        'source-sans-pro'    => 'Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900',
+        'source-serif-pro'   => 'Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900',
+        'space-grotesk'      => 'Space+Grotesk:wght@0,300;0,400;0,500;0,600;0,700',
+        'urbanist'           => 'Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900',
+        'work-sans'          => 'Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900',
+        'yeseva-one'         => 'Yeseva+One'
     );
+	
+	$user_custom_typos = edublock_theme_get_custom_typography();
 
-    return apply_filters( 'edublock_get_fonts_url', add_query_arg( $query_args, 'https://fonts.googleapis.com/css' ) );
+	if( !empty( $user_custom_typos ) ) {
+		foreach( $user_custom_typos as $user_custom_typo ) {
+			$fonts_to_download[] = isset( $font_families[ $user_custom_typo ] ) ? $font_families[ $user_custom_typo ] : '';
+		}
+
+		$query_args = array(
+			'family'  => implode( '|', $fonts_to_download ),
+			'subset'  => urlencode( 'latin,latin-ext' ),
+			'display' => urlencode( 'swap' ),
+		);
+	
+		return apply_filters( 'edublock_get_fonts_url', add_query_arg( $query_args, 'https://fonts.googleapis.com/css' ) );
+	
+	}
+
+	return $fonts_to_download;
 }
