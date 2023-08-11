@@ -238,18 +238,24 @@ function edublock_theme_extract_font_families( $data = array() ) {
 */
 function edublock_theme_fonts() {
 
-	$fonts_url = edublock_get_fonts_url();
+	$theme_fonts_url             = edublock_get_fonts_url();
+	$theme_fonts_url_for_editor  = edublock_get_fonts_url( true );
 
     // Load Fonts if necessary.
-    if ( $fonts_url ) {
+    if ( $theme_fonts_url ) {
 
 		require_once get_theme_file_path( 'inc/wptt-webfont-loader.php' );
-        wp_enqueue_style( 'edublock-theme-fonts', wptt_get_webfont_url( $fonts_url ), array(), wp_get_theme()->get( 'Version' ) );
+        wp_enqueue_style( 'edublock-theme-fonts', wptt_get_webfont_url( $theme_fonts_url ), array(), wp_get_theme()->get( 'Version' ) );
 
-    }
+	}
+	if( $theme_fonts_url_for_editor ) {
+		add_editor_style( $theme_fonts_url_for_editor );
+	}
 
 }
+add_action( 'admin_init', 'edublock_theme_fonts', 1 );
 add_action( 'wp_enqueue_scripts', 'edublock_theme_fonts', 1 );
+add_action( 'enqueue_block_editor_assets', 'edublock_theme_fonts', 1 );
 
 /*
  * Gutenberg Editor CSS
@@ -272,7 +278,22 @@ add_action( 'enqueue_block_editor_assets', 'edublock_theme_gutenberg_editor_css'
 /**
  * Retrieve webfont URL to load fonts locally.
  */
-function edublock_get_fonts_url() {
+function edublock_get_fonts_url( $all = false ) {
+
+	//Set default theme typography font families
+	$theme_default_typo = array(
+		'inter',
+		'epilogue',
+		'archivo',
+		'cormorant-garamond',
+		'dm-sans',
+		'nunito',
+		'open-sans',
+		'philosopher',
+		'mulish',
+		'roboto-condensed',
+		'roboto'
+	);
 
 	$fonts_to_download = array();
     
@@ -316,12 +337,23 @@ function edublock_get_fonts_url() {
         'work-sans'          => 'Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900',
         'yeseva-one'         => 'Yeseva+One'
     );
-	
-	$user_custom_typos = edublock_theme_get_custom_typography();
 
-	if( !empty( $user_custom_typos ) ) {
-		foreach( $user_custom_typos as $user_custom_typo ) {
-			$fonts_to_download[] = isset( $font_families[ $user_custom_typo ] ) ? $font_families[ $user_custom_typo ] : '';
+	//Get user's saved custom typography
+	$user_custom_typo = edublock_theme_get_custom_typography();
+	
+	//Combine default and custom typography
+	$theme_custom_typo = array_merge( $user_custom_typo, $theme_default_typo );
+	
+	$theme_custom_typo = array_unique( $theme_custom_typo );
+
+	if( !empty( $theme_custom_typo ) ) {
+		
+		foreach( $theme_custom_typo as $value ) {
+			$fonts_to_download[] = isset( $font_families[ $value ] ) ? $font_families[ $value ] : '';
+		}
+
+		if( $all ) {
+			$fonts_to_download = $font_families;
 		}
 
 		$query_args = array(
