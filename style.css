@@ -715,7 +715,7 @@ a.wpzoom-video-popup-block {
     padding: 0;
     position: relative;
     text-decoration: none;
-    text-transform: inherit
+    text-transform: inherit;
     transition: .3s ease all;
 }
 
