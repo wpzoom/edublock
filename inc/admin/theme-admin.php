@@ -17,7 +17,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 function edublock_theme_admin_menu() {
 	add_theme_page(
 		esc_html__( 'EduBlock Getting Started', 'edublock' ),
-		esc_html__( 'EduBlock Theme', 'edublock' ),
+		sprintf(
+			'%s <span style="background: #d63638; color: #fff; padding: 2px 6px; border-radius: 3px; font-size: 11px; font-weight: 600; margin-left: 5px;">%s</span>',
+			esc_html__( 'EduBlock', 'edublock' ),
+			esc_html__( 'PRO', 'edublock' )
+		),
 		'manage_options',
 		'edublock-theme',
 		'edublock_admin_page_content',
@@ -59,20 +63,7 @@ function edublock_admin_page_content() {
 				<div class="edublock-grid-content">
 					<div class="edublock-body">
 
-                        <a href="https://www.wpzoom.com/" target="_blank"><img class="center theme_screenshot" src="<?php echo esc_url( get_template_directory_uri() . '/screenshot.png' ); ?>" alt="<?php echo esc_attr__( 'edublock', 'edublock' ); ?>" /></a>
-
-						<h1 class="edublock-title"><?php esc_html_e( 'Getting Started', 'edublock' ); ?></h1>
-						<p class="edublock-intro-text">
-							<?php echo esc_html__( 'EduBlock is a next-generation WordPress theme that adopts the Full Site Editing concept. Using the new Theme Editor, you have complete control over the design of your website. You can now change not just the colors and fonts in your theme but also make changes to the layout and global sections like the header and footer.', 'edublock' ); ?>
-						</p>
-						<p class="edublock-intro-text">
-                            <a href="https://www.wpzoom.com/documentation/edublock/" target="_blank"><?php echo esc_html__( 'EduBlock Documentation', 'edublock' ); ?></a> &nbsp;&nbsp; <strong><a href="https://www.wpzoom.com/themes/edublock-pro/" target="_blank"><?php echo esc_html__( 'EduBlock PRO', 'edublock' ); ?></a></strong>
-
-						</p>
-						<br><br><hr>
-						<br><br>
-
-                         <a href="https://www.wpzoom.com/themes/edublock-pro/" target="_blank"><img class="center theme_screenshot" src="<?php echo esc_url( get_template_directory_uri() . '/assets/admin/img/pro.png' ); ?>" alt="<?php echo esc_attr__( 'EduBlock', 'edublock' ); ?>" /></a>
+                        <a href="https://www.wpzoom.com/themes/edublock-pro/" target="_blank"><img class="center theme_screenshot" src="<?php echo esc_url( get_template_directory_uri() . '/assets/admin/img/pro.png' ); ?>" alt="<?php echo esc_attr__( 'EduBlock', 'edublock' ); ?>" /></a>
 
                         <h1 class="edublock-title"><?php esc_html_e( 'EduBlock PRO Now Available!', 'edublock' ); ?></h1>
 
@@ -81,7 +72,25 @@ function edublock_admin_page_content() {
                             <?php echo __( 'EduBlock PRO comes packaged with numerous features to help you build beautiful websites in seconds. Get access to <strong>premium block patterns</strong>, <strong>header & footer layouts</strong>, and a <strong>1-click demo content importer</strong> to help you get started quickly.', 'edublock' ); ?>
                         </p>
 
+
                         <p><a href="https://www.wpzoom.com/themes/edublock-pro/" class="button button-primary button-hero" style="text-decoration: none;" target="_blank"><?php esc_html_e( 'Get EduBlock PRO &rarr;', 'edublock' ); ?></a></p>
+
+
+                        <br><br><hr>
+                        <br><br>
+
+                        <a href="https://www.wpzoom.com/" target="_blank"><img class="center theme_screenshot" src="<?php echo esc_url( get_template_directory_uri() . '/screenshot.png' ); ?>" alt="<?php echo esc_attr__( 'edublock', 'edublock' ); ?>" /></a>
+
+						<h1 class="edublock-title"><?php esc_html_e( 'Getting Started with EduBlock Lite', 'edublock' ); ?></h1>
+						<p class="edublock-intro-text">
+							<?php echo esc_html__( 'EduBlock is a next-generation WordPress theme that adopts the Full Site Editing concept. Using the new Theme Editor, you have complete control over the design of your website. You can now change not just the colors and fonts in your theme but also make changes to the layout and global sections like the header and footer.', 'edublock' ); ?>
+						</p>
+						<p class="edublock-intro-text">
+                            <a href="https://www.wpzoom.com/documentation/edublock/" target="_blank"><?php echo esc_html__( 'EduBlock Documentation', 'edublock' ); ?></a>
+
+						</p>
+
+
 
 
 					</div> <!-- .body -->
